@@ -113,7 +113,7 @@
         self.barChart.chartMarginTop = 5.0;
         self.barChart.chartMarginBottom = 10.0;
 
-        
+        self.barChart.barFontSize = 10;
         self.barChart.labelMarginTop = 5.0;
         self.barChart.showChartBorder = YES;
         [self.barChart setXLabels:@[@"2",@"3",@"4",@"5",@"2",@"3",@"4",@"5"]];
@@ -122,7 +122,7 @@
         [self.barChart setYValues:@[@10.82,@1.88,@6.96,@33.93,@10.82,@1.88,@6.96,@33.93]];
         [self.barChart setStrokeColors:@[PNGreen,PNGreen,PNRed,PNGreen,PNGreen,PNGreen,PNRed,PNGreen]];
         self.barChart.isGradientShow = NO;
-        self.barChart.isShowNumbers = NO;
+        self.barChart.isShowNumbers = YES;
 
         [self.barChart strokeChart];
         

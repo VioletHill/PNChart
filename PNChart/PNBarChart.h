@@ -36,6 +36,7 @@ typedef NSString *(^PNYLabelFormatter)(CGFloat yLabelValue);
 @property (nonatomic) UIColor *strokeColor;
 @property (nonatomic) NSArray *strokeColors;
 
+@property (nonatomic) CGFloat barFontSize;
 
 /** Update Values. */
 - (void)updateChartData:(NSArray *)data;

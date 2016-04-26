@@ -258,11 +258,18 @@
             if (self.labelTextColor) {
                 bar.labelTextColor = self.labelTextColor;
             }
-
+            
+            if (self.barFontSize) {
+                bar.fontSize = self.barFontSize;
+            } else {
+                bar.fontSize = 10;
+            }
+            
             // Add gradient
             if (self.isGradientShow) {
              bar.barColorGradientStart = bar.barColor;
             }
+            
 
             //For Click Index
             bar.tag = index;
